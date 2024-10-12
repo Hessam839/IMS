@@ -1,0 +1,20 @@
+[project]
+name="Inventory Management System"
+version="0.2.0"
+description=""
+authors="Hesam Hashemi <hessam.h.ir@gmail.com>"
+maintainers="Hesam Hashemi <hessam.h.ir@gmail.com>"
+keywords=["IMS", "inventory management system", "wearhouse"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
